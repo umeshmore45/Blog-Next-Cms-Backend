@@ -1,12 +1,14 @@
 import Head from "next/head";
+import BlogCard from "../component/BlogCard";
 import fetchData from "../fetchData/entry";
 import styles from "../styles/Home.module.css";
 
 export default function Home(props) {
-  console.log(props);
   return (
     <div className={styles["container"]}>
-      <h1>Home</h1>
+      {props.blogs.map((blog) => {
+        return <BlogCard key={blog.uid} {...blog} />;
+      })}
     </div>
   );
 }
