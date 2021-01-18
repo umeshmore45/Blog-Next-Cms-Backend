@@ -1,10 +1,14 @@
+import Link from "next/link";
+
 function BlogCard(props) {
-  console.log(props);
-  let { heading, image, content } = props;
+  let { heading, image, content, uid } = props;
   return (
     <div>
-      <h1>{heading}</h1>
       <img src={image.url} alt={image.title} />
+      <Link href={`/blog/${uid}`}>
+        <h1>{heading}</h1>
+      </Link>
+
       <p>{content}</p>
     </div>
   );
