@@ -1,0 +1,21 @@
+.container {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.image-container {
+  width: 20%;
+}
+
+.link {
+  width: 40%;
+}
+
+.li {
+  display: inline;
+  margin-right: 10%;
+}
