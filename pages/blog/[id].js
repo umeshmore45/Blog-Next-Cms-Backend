@@ -4,7 +4,7 @@ import fetchData from "../../fetchData/entry";
 
 function blog(props) {
   return (
-    <Layout>
+    <Layout {...props.navi}>
       <div>
         <SingleBlog {...props.blog} />
       </div>
@@ -15,10 +15,11 @@ function blog(props) {
 export const getStaticProps = async (context) => {
   try {
     let blog = await fetchData("umesh_blog_component", context.params.id);
-
+    let navi = await fetchData("umesh_blog_header", process.env.TOKEN);
     return {
       props: {
         blog: blog,
+        navi: navi,
       },
     };
   } catch (e) {

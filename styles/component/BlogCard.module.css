@@ -7,17 +7,18 @@
 
 .img-container {
   width: 50%;
+  margin: 0% auto;
 }
 
 .content {
   width: 50%;
   text-align: center;
   margin-left: 25%;
+  cursor: pointer;
 }
 
 .img-p {
   width: 40%;
   height: 30vh;
   margin-left: 30%;
-  border: 2px solid red;
 }

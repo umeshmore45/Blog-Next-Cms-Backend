@@ -1,3 +1,4 @@
+import fetchData from "../fetchData/entry";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
 
