@@ -5,7 +5,7 @@ function BlogCard(props) {
   let { heading, image, content, uid } = props;
   return (
     <div className={styles["container"]}>
-      <div classname={styles["img-container"]}>
+      <div className={styles["img-container"]}>
         <img src={image.url} alt={image.title} className={styles["img-p"]} />
       </div>
       <div className={styles["content"]}>

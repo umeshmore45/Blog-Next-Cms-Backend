@@ -19,7 +19,7 @@ export default function Home(props) {
 export const getStaticProps = async () => {
   try {
     let blogs = await fetchData("umesh_blog_component");
-    let navi = await fetchData("umesh_blog_header", "blt0af670cb3617c3dc");
+    let navi = await fetchData("umesh_blog_header", process.env.TOKEN);
 
     return {
       props: {
