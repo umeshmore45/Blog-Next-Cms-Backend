@@ -3,11 +3,21 @@
   margin: 5% auto;
   display: flex;
   flex-direction: column;
+  height: 60vh;
+  background-image: url("https://cdn.dribbble.com/users/626327/screenshots/2618501/400.gif");
+  background-size: cover;
+  color: white;
+  transition: 1s;
+}
+
+.container:hover {
+  transform: scale(1.03);
+  transition: all 1s ease-in-out;
 }
 
 .img-container {
   width: 50%;
-  margin: 0% auto;
+  margin: 1% auto;
 }
 
 .content {
@@ -21,6 +31,12 @@
   width: 40%;
   height: 30vh;
   margin-left: 30%;
+  transition: 1s;
+}
+
+.img-p:hover {
+  transform: scale(1.01);
+  transition: all 1s ease-in-out;
 }
 
 @media (max-width: 767.98px) {
