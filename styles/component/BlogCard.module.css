@@ -1,0 +1,23 @@
+.container {
+  width: 80%;
+  margin: 5% auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  width: 50%;
+}
+
+.content {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.img-p {
+  width: 40%;
+  height: 30vh;
+  margin-left: 30%;
+  border: 2px solid red;
+}

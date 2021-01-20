@@ -1,11 +1,14 @@
+import Layout from "../../component/layout";
 import SingleBlog from "../../component/SingleBlog";
 import fetchData from "../../fetchData/entry";
 
 function blog(props) {
   return (
-    <div>
-      <SingleBlog {...props.blog} />
-    </div>
+    <Layout>
+      <div>
+        <SingleBlog {...props.blog} />
+      </div>
+    </Layout>
   );
 }
 
