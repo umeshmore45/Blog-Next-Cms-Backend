@@ -14,3 +14,8 @@
 .copy {
   margin-top: 4%;
 }
+@media (max-width: 767.98px) {
+  .container {
+    width: 100%;
+  }
+}

@@ -22,3 +22,18 @@
   width: 40%;
   text-align: center;
 }
+
+@media (max-width: 767.98px) {
+  .container {
+    flex-direction: column;
+    height: 200vh;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .links {
+    width: 100%;
+  }
+}
