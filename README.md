@@ -4,7 +4,7 @@
 
 ## Features
 
-
+- This Application Created Using  Next.Js(SSR)
 
 - This Application Render Data From Headless CMS  [ContentStack](https://www.contentstack.com/)
 
